@@ -1,0 +1,196 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  /* background-color: black; */
+
+}
+
+.barra{
+  display: flex;
+  
+  /* height: 50px; */
+  background: #17494d
+  ;
+  align-items: center;
+  justify-content: space-between ;
+  flex-wrap: nowrap;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.barra .links {
+  display: flex;
+  justify-content: space-around;
+  width: 100vh;
+  /* background: black; */
+  
+  flex-wrap: wrap;
+  padding: 10px;
+  /* position: relative; */
+  /* margin-left: -270px; */
+}
+.barra .links .like{
+  color: white;
+  text-decoration: none;
+font-size: 13px;
+margin: 5px ;
+
+}
+.imagen{
+display: flex;
+/* margin-left: 10px; */
+}
+
+.imagen .imagenh{
+height: 40px;
+width: 100px;
+}
+
+.search{
+  display: flex;
+/* position: relative; */
+/* left: -190px; */
+justify-content: center;
+background: white;
+border-radius: 5px;
+align-items: center;
+min-width: 100px;
+
+}
+.search input{
+  
+  width: 350px;
+  min-width: 100px;
+  border-radius: 5px;
+  height: 37px;
+  border: none;
+}
+
+.search img{
+height: 25px;
+min-width: 25px;
+  margin-left: 2px;
+}
+
+section div .articulo img{
+  height: 40px;
+  width: 40px;
+}
+/* _____________________________________________________________________________________________________________ */
+.Seccion1{
+
+}
+.Seccion1 .Secc1Hijo{
+  display: flex; background-color: #639599; margin: 0; justify-content: center; align-items: center;
+  padding: 10px;
+}
+/* -------------------------------------------------------------------------------------------------------------- */
+.Seccion2{
+  display: flex;  align-items: center; justify-content: space-around; padding: 20px;
+  flex-wrap: wrap;
+}
+.Seccion2 .articulo{
+
+}
+.Seccion2 .articulo img{
+  height: 300px; width: 300px;
+}
+.Seccion2 .articulo .Informacion{
+
+}
+
+.Seccion3{
+  display: flex;  align-items: center; justify-content: space-around; padding: 20px;
+  flex-wrap: wrap;
+}
+.Seccion3 .articulo{
+
+}
+.Seccion3 .articulo img{
+  height: 300px; width: 300px;
+}
+.Seccion3 .articulo .Informacion{
+  display: flex;
+justify-content: center;
+
+}
+
+.Seccion4{
+  display: flex;  align-items: center; justify-content: space-between; 
+  flex-wrap: wrap;
+  /* background: #17494d; */
+}
+.Seccion4 .articulo{
+  height: 200px; width: 200px;
+  
+}
+.Seccion4 .articulo img{
+  height: 200px; width: 200px;
+}
+
+.Seccion5{
+
+}
+
+.Seccion5 .Secc5Hijo{
+  display: flex; height: 400px; align-items: center; justify-content: space-around;
+}
+.Seccion5 .Secc5Hijo .articulo{
+display: flex; min-width: 100px; min-height: 50px;
+}
+.Seccion5 .Secc5Hijo .articulo img{
+  height: 300px; width: 600px; min-width: 100px; min-height: 50px ;
+}
+
+.Seccion6{
+  background-color: #17494d
+  ; height: 300px; width: 100%; display: flex; justify-content: space-around;
+}
+
+.Seccion6 .Links{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px; padding: 10px;
+  
+}
+.Seccion6{
+  
+}
+
+.boton-notificacion {
+  position: fixed;
+  bottom: 20px; /* Distancia desde el borde inferior */
+  right: 20px; /* Distancia desde el borde derecho */
+  z-index: 999; /* Capa de apilamiento para estar sobre otros elementos */
+}
+
+
+/* @media (max-width: 800px) {
+  .barra {
+    flex-direction: column;
+    align-items: center; 
+    height: 20vh;
+   
+  }
+
+  .barra .links {
+    display: none;
+  }
+
+  .imagen {
+    margin-top: 5px;
+  }
+
+  .search {
+    order: 1;
+    margin-bottom: 20px;
+    width: 400px; 
+    left: auto; 
+  }
+
+  .search input {
+    width: 100%;
+  margin: 0 auto; 
+  }
+} */

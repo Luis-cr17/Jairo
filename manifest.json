@@ -1,0 +1,15 @@
+{
+    "name": "ElectroAM",
+    "short_name": "Mi App",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4a90e2",
+    "icons": [
+      {
+        "src": "https://png.pngtree.com/png-clipart/20220916/ourmid/pngtree-logout-button-3d-icon-render-png-image_6176384.png",
+        "sizes": "360x360",
+        "type": "image/png"
+      }
+    ]
+  }
